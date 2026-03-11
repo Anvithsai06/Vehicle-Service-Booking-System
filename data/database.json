@@ -1,0 +1,157 @@
+{
+  "users": [
+    {
+      "userId": "USR00001",
+      "name": "Admin User",
+      "role": "admin",
+      "email": "admin@servicebook.com",
+      "password": "$2a$10$NKJvUvLRl7vAB3E/WmT4HOWmNoB1wc.frk04nMysSManaGrEn6xxi",
+      "contact": "9999999999",
+      "location": "Mumbai",
+      "createdAt": "2025-11-25T06:00:51.054Z",
+      "updatedAt": "2025-11-25T06:00:51.054Z"
+    },
+    {
+      "userId": "USR00002",
+      "name": "Rajesh Kumar",
+      "role": "garage",
+      "email": "rajesh@garage.com",
+      "password": "$2a$10$YJD9rOenOnZ0nVPV20PwIek8.tfJ4E1.qQHTpmoEE3dLWwUueJ79y",
+      "contact": "9876543210",
+      "location": "Delhi",
+      "createdAt": "2025-11-25T06:00:51.115Z",
+      "updatedAt": "2025-11-25T06:00:51.115Z"
+    },
+    {
+      "userId": "USR00003",
+      "name": "Suresh Auto Works",
+      "role": "garage",
+      "email": "suresh@garage.com",
+      "password": "$2a$10$nWgTyP.KaKpPIXKmzhjvWu1YgAR7GqqAwNlffu8IEi.Iab5TQNNOO",
+      "contact": "9876543211",
+      "location": "Bangalore",
+      "createdAt": "2025-11-25T06:00:51.179Z",
+      "updatedAt": "2025-11-25T06:00:51.179Z"
+    },
+    {
+      "userId": "USR00004",
+      "name": "Mohan Service Center",
+      "role": "garage",
+      "email": "mohan@garage.com",
+      "password": "$2a$10$xucEZAKfpfCJ4jQfkeGdLOhXHeoNjUL9FzLqbkrMt1S098LFd97F.",
+      "contact": "9876543212",
+      "location": "Chennai",
+      "createdAt": "2025-11-25T06:00:51.239Z",
+      "updatedAt": "2025-11-25T06:00:51.239Z"
+    },
+    {
+      "name": "Sameer",
+      "role": "garage",
+      "email": "sameer123@mail.com",
+      "password": "$2a$10$92YwYYjr0.0uEY/SHhpF/.sPvLqlDzyx3Fnr6r71HhetNBMf01UM6",
+      "contact": "1234567890",
+      "location": "kzp",
+      "userId": "USR00005",
+      "createdAt": "2025-11-25T06:03:01.727Z",
+      "updatedAt": "2025-11-25T06:03:01.727Z"
+    }
+  ],
+  "vehicles": [],
+  "serviceCenters": [
+    {
+      "centerId": "CTR00001",
+      "ownerId": "USR00002",
+      "name": "Rajesh Auto Service",
+      "address": "123 Main Street, Delhi",
+      "contact": "9876543210",
+      "serviceTypes": [
+        {
+          "name": "Oil Change",
+          "price": 600
+        },
+        {
+          "name": "Full Service",
+          "price": 1500
+        },
+        {
+          "name": "Washing",
+          "price": 300
+        },
+        {
+          "name": "Brake Service",
+          "price": 800
+        },
+        {
+          "name": "Tire Replacement",
+          "price": 2000
+        }
+      ],
+      "createdAt": "2025-11-25T06:00:51.240Z",
+      "updatedAt": "2025-11-25T06:00:51.240Z"
+    },
+    {
+      "centerId": "CTR00002",
+      "ownerId": "USR00003",
+      "name": "Suresh Auto Works",
+      "address": "456 MG Road, Bangalore",
+      "contact": "9876543211",
+      "serviceTypes": [
+        {
+          "name": "Oil Change",
+          "price": 600
+        },
+        {
+          "name": "Full Service",
+          "price": 1500
+        },
+        {
+          "name": "Washing",
+          "price": 300
+        },
+        {
+          "name": "AC Service",
+          "price": 1200
+        },
+        {
+          "name": "Engine Repair",
+          "price": 3000
+        }
+      ],
+      "createdAt": "2025-11-25T06:00:51.241Z",
+      "updatedAt": "2025-11-25T06:00:51.241Z"
+    },
+    {
+      "centerId": "CTR00003",
+      "ownerId": "USR00004",
+      "name": "Mohan Service Center",
+      "address": "789 Beach Road, Chennai",
+      "contact": "9876543212",
+      "serviceTypes": [
+        {
+          "name": "Oil Change",
+          "price": 600
+        },
+        {
+          "name": "Full Service",
+          "price": 1500
+        },
+        {
+          "name": "Washing",
+          "price": 300
+        },
+        {
+          "name": "Battery Replacement",
+          "price": 2500
+        },
+        {
+          "name": "Denting & Painting",
+          "price": 4000
+        }
+      ],
+      "createdAt": "2025-11-25T06:00:51.242Z",
+      "updatedAt": "2025-11-25T06:00:51.242Z"
+    }
+  ],
+  "bookings": [],
+  "feedback": []
+}
